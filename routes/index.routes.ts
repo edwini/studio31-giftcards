@@ -16,7 +16,8 @@ router.get("/", ({ response }) => {
   response.body = `Endpoint grift-cards is up on port 3200 
     Routes: 
       GET/ -> base URL
-      GET/dummy -> return a dummy response object
+      GET/dummyrequest -> return a dummy request object
+      GET/dummyresponse -> return a dummy response object
       POST/giftcards -> generate a new gift card
       endpoint time: ${new Date()}`;
 });
